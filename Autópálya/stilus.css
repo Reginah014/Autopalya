@@ -1,0 +1,78 @@
+#bgg{
+    background-image: url(circuit.jpg);
+    width:800px;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.kep{
+    width: 8%;
+    position: relative;
+    left: 85%;
+    top: 40%;
+    transform: rotate(90deg);
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-name: megy ;
+}
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+
+@keyframes megy {
+    0%{left: 86%; top: 40%; transform:  rotate(90deg);}
+
+    5%{left: 86%; top:60%; transform:  rotate(90deg);}
+    
+    10%{left: 86%; top: 65%; transform:  rotate(120deg);}
+   
+    15%{left: 80%; top: 70%; transform:  rotate(120deg);}
+  
+    20%{left: 75%; top: 75%; transform:  rotate(180deg);}
+  
+    25%{left: 7%; top: 75%; transform:  rotate(200deg);}
+
+    30%{left: 1%; top: 65%; transform:  rotate(230deg);}
+    
+    35%{left: 1%; top: 48%; transform:  rotate(280deg);}
+
+    40%{left: 7%; top: 35%; transform:  rotate(350deg);}
+
+    45%{left: 35%; top: 35%; transform:  rotate(360deg);}
+
+    50%{left: 44%; top: 30%; transform:  rotate(320deg);}
+
+    55%{left: 45%; top: 20%; transform:  rotate(300deg);}
+
+    60%{left: 50%; top: 3%; transform:  rotate(300deg);}
+
+    65%{left: 56%; top: 3%; transform:  rotate(350deg);}
+
+    70%{left: 77%; top: 3%; transform:  rotate(350deg);}
+    
+    75%{left: 87%; top: 16%; transform:  rotate(390deg);}
+
+    100%{left: 86%; top: 40%; transform:  rotate(430deg);}
+}
